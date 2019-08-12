@@ -14,10 +14,6 @@ http://mbox.dr-chuck.net/
 This server will be faster and take a lot of load off the 
 gmane.org server.
 
-You should install the SQLite browser to view and modify the databases from:
-
-http://sqlitebrowser.org/
-
 The first step is to spider the gmane repository.  The base URL 
 is hard-coded in the gmane.py and is hard-coded to the Sakai
 developer list.  You can spider another repository by changing that
@@ -39,13 +35,6 @@ running gmane.py.
 
 Navigate to the folder where you extracted the gmane.zip
 
-Note: Windows has difficulty in displaying UTF-8 characters
-in the console so for each console window you open, you may need
-to type the following command before running this code:
-
-    chcp 65001
-
-http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
 
 Here is a run of gmane.py getting the last five messages of the
 sakai developer list:
